@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: start;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: rgb(203, 182, 165);
+}
+
+#dictionary-container {
+	height: 98vh;
+	width: 100%;
+}
+
+#banner-container {
+	height: 15%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+#heading {
+	position: absolute;
+	font-size: 3rem;
+	margin-left: 10px;
+}
+
+.banner {
+	height: 100px;
+	width: 100%;
+}
+
+.search-container {
+	display: flex;
+	position: absolute;
+	right: 0;
+	margin-right: 20px;
+}
+
+#searchin {
+	height: 70px;
+	width: 600px;
+	padding: 10px;
+	font-size: x-large;
+}
+
+#searchbtn {
+	height: 70px;
+	width: 125px;
+	padding: 5px;
+	text-align: center;
+	font-size: x-large;
+}
+
+hr {
+	height: 2px;
+	background-color: #000000;
+	border: none;
+	margin: 3px 0 3px 0;
+}
+
+#content-container {
+	font-size: 25px;
+	height: 85%;
+	width: 99%;
+	margin: auto;
+	border: 5px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#word {
+	font-size: 100px;
+}
+
+#definition {
+	font-size: 50px;
+}
+
+#example {
+	font-size: 40px;
+}
+
+button {
+	width: 150px;
+	text-align: center;
+}
+
+#errorBox {
+	font-size: 3rem;
+	padding: 10%;
+	text-align: center;
+}

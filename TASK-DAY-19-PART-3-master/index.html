@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Free English Dictionary</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="icons8-dictionary-100.png" />
+	</head>
+	<body>
+		<div id="dictionary-container">
+			<nav id="banner-container">
+				<img class="banner" src="Banner.png" alt="" />
+				<h1 id="heading">Free English Dictionary</h1>
+				<div class="search-container">
+					<input
+						type="search"
+						id="searchin"
+						value="Love"
+						placeholder="Enter a word to search"
+					/>
+					<button type="button" id="searchbtn" onclick="searchFunc()">
+						Search
+					</button>
+				</div>
+			</nav>
+
+			<div id="content-container">
+				<div id="word" class="clear"></div>
+				<div id="pos" class="clear"></div>
+				<hr />
+				<div class="clear">
+					Pronounciation(UK) :
+					<span id="uk"></span>
+				</div>
+				<div class="clear">
+					Pronounciation(US) :
+					<span id="us"></span>
+				</div>
+				<button id="btnUK" type="button" onclick="ringUK()">
+					<i class="fa-solid fa-volume-high"></i>
+				</button>
+				<div id="audio-container"></div>
+				<hr />
+				<div id="definition" class="clear"></div>
+				<hr />
+				<div id="example" class="clear"></div>
+				<hr />
+				<div id="syn-ant-container">
+					<div id="synonyms" class="clear"></div>
+					<div id="antonyms" class="clear"></div>
+				</div>
+				<hr />
+				<div id="surl">
+					Source URL :
+					<span><a id="sourceURL" class="clear" href=""></a></span>
+				</div>
+				<div id="errorBox" class="clear"></div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
